@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    background-size: cover;
+}
+.registration-template-main{
+    display: flex;
+    flex-direction: column;
+
+}
+.main{
+    height: fit-content;
+    width: fit-content;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 4px;
+    padding: 50px;
+    margin-top: 80px;
+}
+.main>h1{
+    margin-left: 93px;
+}
+.input{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    
+}
+.input>input{
+    width: 100%;
+    color: #000000;
+    outline: 0px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(124, 118, 118);
+}
+.radiobtn{
+    margin-left: 14px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, rgba(48,131,228,1) 4%, rgba(135,230,218,1) 100%);
+    width: 93%;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.btn2 input{
+    margin-bottom: 4px;
+    background: linear-gradient(90deg, rgba(48,131,228,1) 4%, rgba(135,230,218,1) 100%);
+    width: 93%;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.login{
+    margin-left: 107px;
+}
+#response{
+    color: red;
+    font-weight: 600;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
